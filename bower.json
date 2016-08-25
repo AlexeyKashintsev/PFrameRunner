@@ -1,0 +1,23 @@
+{
+  "name": "PFrameRunner",
+  "main": "PFrameRunner.js",
+  "homepage": "https://github.com/AlexeyKashintsev/PFrameRunner",
+  "authors": [
+    "Alexey Kashintsev <ak@altsoft.biz>"
+  ],
+  "description": "Frame runner for Platypus.js projects",
+  "keywords": [
+    "Platypus.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "HTMLHandler": "*"
+  }
+}
