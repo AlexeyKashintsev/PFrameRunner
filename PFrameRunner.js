@@ -11,6 +11,8 @@ define('PFrameRunner', ['HTMLHandler'] , function (HTMLHandler, ModuleName) {
         $('#' + activeFrame).hide();
         $('#' + aFormName).show();
         activeFrame = aFormName;
+        if (frames[aFormName].update)
+            frames[aFormName].update();
     }
 
     function show(aFormName, aCaption) {
